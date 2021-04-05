@@ -1,4 +1,11 @@
+/**
+ * @file QueueC.cpp
+ * @brief Plik do umożliwienia poprawnej kompilacji pliku Queue.cpp
+ * 
+ */
+
 #include "Queue.cpp"
 
 
-template class Priority_Queue<int, std::string>;
+template class PriorityQueue<int, std::string>;
+
